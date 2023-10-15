@@ -1,0 +1,130 @@
+body
+{
+    background-color: #a2c4c4;
+    background: linear-gradient(-60deg, #0066ff, #31bdef);
+}
+
+html
+{
+    border: solid 3px #323292;
+}
+h1
+{
+    text-align: center;
+}
+
+.welcome_title
+{
+    font-family: 'Lucida Fax', serif;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+.welcome_area
+{
+    background-color: #412db3;
+    box-sizing: border-box;
+}
+
+h2.Synopsis
+{
+    background-color: #104e64;
+    display: block;
+    font-style: italic;
+    position: static; /*Default positioning*/
+    color: #c4920b;
+
+}
+h2
+{
+    text-align: center;
+}
+.title2
+{
+    font-family: 'Ossem', sans-serif;
+}
+
+.Author
+{
+    text-align: center;
+    font-style: italic;
+}
+
+.intro
+{
+    text-align: justify;
+}
+p
+{
+    text-align: justify;
+}
+
+a
+{
+    text-align: center;
+}
+span
+{
+    font-style: italic;
+    font-family: 'Transicty', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+
+
+/*.uppercase
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+*/
+
+/*
+.Italicize
+{
+    font-style: italic;
+}
+*/
+
+.GREEN
+{
+    color: green;
+}
+
+img[src*='Computer']
+{
+    height: 50%;
+    width: 50%;
+    border: 7px solid rgba(132, 13, 161, 0.637);
+    /* margin: 5 auto; */
+    position: relative;
+    left: 422px;
+
+}
+
+.troll
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/* Doesnt seem to work */
+.troll:visited
+{
+    color: #d07d29;
+    background-color: aqua;
+}
+
+.troll:hover
+{
+    color: #0f12d6;
+}
+/*Should remove this later on*/
+span.follow
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
